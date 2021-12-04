@@ -1,0 +1,1576 @@
+[
+{
+    "model": "sessions.session",
+    "pk": "b45www9i8p1e66hdefpxeiqb83kqccmr",
+    "fields": {
+        "session_data": "eyJfc2Vzc2lvbl9pbml0X3RpbWVzdGFtcF8iOjE2MzY1NTgxMjUuMDAxMTU5Mn0:1mkpWn:1CEj5t1Tbblxxu1awWVtVJ6mXKMyHaxdZ7eMFDBPqUU",
+        "expire_date": "2021-11-24T15:28:45.034Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "x3wapbkmleap5vdf4gytuk7vo8r5zttd",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSFMoXTo0r3fQIZHLWrBFLoy_rs26UK395x7XszS1ma71bjaFNjIgJ1-N0f-HvMOwo3ytXBfcluT47vCD1r5pYT4OB_uX2CmOn_f5J0KHp2TqDo_4UBkFGijJjBGBNAoey-MV90UBQJCBOd0L_upR0IY9miNtaaSbcqp2ZaWWBstT8tG0BK10EZKDkYoYbr3B1qJRdM:1mtQW5:HRYJ98WOD4QJH2PWYTKNyCShrVkH9v5UOrfYeRiPknM",
+        "expire_date": "2021-12-18T08:35:33.290Z"
+    }
+},
+{
+    "model": "category.category",
+    "pk": 1,
+    "fields": {
+        "category_name": "Shirts",
+        "slug": "shirts",
+        "description": "This is demo shirt category",
+        "cat_image": "photos/categories/shirts.jpg"
+    }
+},
+{
+    "model": "category.category",
+    "pk": 2,
+    "fields": {
+        "category_name": "T-Shirt",
+        "slug": "t-shirt",
+        "description": "This is test description.",
+        "cat_image": "photos/categories/tshirts.jpg"
+    }
+},
+{
+    "model": "category.category",
+    "pk": 3,
+    "fields": {
+        "category_name": "Shoes",
+        "slug": "shoes",
+        "description": "this is test description.",
+        "cat_image": "photos/categories/shoes.png"
+    }
+},
+{
+    "model": "category.category",
+    "pk": 4,
+    "fields": {
+        "category_name": "Jeans",
+        "slug": "jeans",
+        "description": "this test descrption for jeanse",
+        "cat_image": "photos/categories/jeans.jpg"
+    }
+},
+{
+    "model": "category.category",
+    "pk": 5,
+    "fields": {
+        "category_name": "Jacket",
+        "slug": "jacket",
+        "description": "this is test description for jacket.",
+        "cat_image": "photos/categories/jackets.jpg"
+    }
+},
+{
+    "model": "accounts.account",
+    "fields": {
+        "password": "pbkdf2_sha256$216000$OxNw1ynareZN$hu/XYD4BZ5RApxFJQvAEmqSrAFK7iEpLQ9afSHSP8Us=",
+        "first_name": "prashant",
+        "last_name": "jaiswal",
+        "username": "prashant",
+        "email": "prashantjaiswal647@gmail.com",
+        "phone_number": "",
+        "date_joined": "2021-11-07T13:03:20.732Z",
+        "last_login": "2021-12-04T08:24:56.531Z",
+        "is_admin": true,
+        "is_staff": true,
+        "is_active": true,
+        "is_superadmin": true
+    }
+},
+{
+    "model": "accounts.account",
+    "fields": {
+        "password": "pbkdf2_sha256$216000$CNv5JoxSWFCU$mRpgmsmpFdyukk8K2PyRhzB+JHluFHRA5MXuqXBMzbI=",
+        "first_name": "Ashutosh",
+        "last_name": "Singh",
+        "username": "ashutosh",
+        "email": "ashutosh@gmail.com",
+        "phone_number": "9191919191",
+        "date_joined": "2021-11-25T08:55:47.575Z",
+        "last_login": "2021-11-25T08:55:47.575Z",
+        "is_admin": false,
+        "is_staff": false,
+        "is_active": false,
+        "is_superadmin": false
+    }
+},
+{
+    "model": "accounts.account",
+    "fields": {
+        "password": "pbkdf2_sha256$216000$O1VTwX8s75FQ$8UR9Ldb4N4twt4vN00EZQQCWNGZAKcBFMNOQIB2RAto=",
+        "first_name": "Prashant",
+        "last_name": "Jaiswal",
+        "username": "prashantjaiswal123",
+        "email": "prashantjaiswal123@gmail.com",
+        "phone_number": "8285811727",
+        "date_joined": "2021-11-25T08:58:35.069Z",
+        "last_login": "2021-11-25T08:58:35.069Z",
+        "is_admin": false,
+        "is_staff": false,
+        "is_active": true,
+        "is_superadmin": false
+    }
+},
+{
+    "model": "accounts.account",
+    "fields": {
+        "password": "pbkdf2_sha256$216000$a8OAk5HQASHh$luiFLdqfl3zpYvv3YEBI2vL+o1Ap04HASPIeWuyds04=",
+        "first_name": "Prashant",
+        "last_name": "Jaiswal",
+        "username": "jaiswalprashant1994",
+        "email": "jaiswalprashant1994@gmail.com",
+        "phone_number": "9191919191",
+        "date_joined": "2021-11-27T11:45:51.747Z",
+        "last_login": "2021-12-04T07:47:48.199Z",
+        "is_admin": false,
+        "is_staff": false,
+        "is_active": true,
+        "is_superadmin": false
+    }
+},
+{
+    "model": "accounts.account",
+    "fields": {
+        "password": "pbkdf2_sha256$216000$BEJjRxZmKYu6$AX3v5dIwZ/lmmng9SWuGuEeofS2W0hywq5F+EArU3Js=",
+        "first_name": "Prashant",
+        "last_name": "Jaiswal",
+        "username": "prashantjaiswal300",
+        "email": "prashantjaiswal300@gmail.com",
+        "phone_number": "9191919191",
+        "date_joined": "2021-12-02T06:08:27.990Z",
+        "last_login": "2021-12-04T07:43:53.744Z",
+        "is_admin": false,
+        "is_staff": false,
+        "is_active": true,
+        "is_superadmin": false
+    }
+},
+{
+    "model": "accounts.userprofile",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "ashutosh@gmail.com"
+        ],
+        "address_line_1": "",
+        "address_line_2": "",
+        "profile_picture": "default/default-user.png",
+        "city": "",
+        "state": "",
+        "country": ""
+    }
+},
+{
+    "model": "accounts.userprofile",
+    "pk": 3,
+    "fields": {
+        "user": [
+            "prashantjaiswal123@gmail.com"
+        ],
+        "address_line_1": "",
+        "address_line_2": "",
+        "profile_picture": "default/default-user.png",
+        "city": "",
+        "state": "",
+        "country": ""
+    }
+},
+{
+    "model": "accounts.userprofile",
+    "pk": 4,
+    "fields": {
+        "user": [
+            "jaiswalprashant1994@gmail.com"
+        ],
+        "address_line_1": "",
+        "address_line_2": "",
+        "profile_picture": "userprofile/image13.jpg",
+        "city": "",
+        "state": "",
+        "country": ""
+    }
+},
+{
+    "model": "accounts.userprofile",
+    "pk": 8,
+    "fields": {
+        "user": [
+            "prashantjaiswal300@gmail.com"
+        ],
+        "address_line_1": "",
+        "address_line_2": "",
+        "profile_picture": "default/default-user.png",
+        "city": "",
+        "state": "",
+        "country": ""
+    }
+},
+{
+    "model": "store.product",
+    "pk": 1,
+    "fields": {
+        "product_name": "ATX-Jeans",
+        "slug": "atx-jeans",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop p",
+        "price": 199,
+        "images": "photos/products/ATX-Jeans.jpg",
+        "stock": 89,
+        "is_available": true,
+        "category": 4,
+        "created_date": "2021-11-07T14:10:26.762Z",
+        "modified_date": "2021-12-04T07:48:38.563Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 2,
+    "fields": {
+        "product_name": "RXN-Blue-Shirt",
+        "slug": "rxn-blue-shirt",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop p",
+        "price": 150,
+        "images": "photos/products/Blue-Shirt.jpg",
+        "stock": 500,
+        "is_available": true,
+        "category": 1,
+        "created_date": "2021-11-07T14:12:14.728Z",
+        "modified_date": "2021-11-07T14:12:14.728Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 3,
+    "fields": {
+        "product_name": "Great-Tshirt",
+        "slug": "great-tshirt",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop p",
+        "price": 99,
+        "images": "photos/products/Great-Tshirt.jpg",
+        "stock": 0,
+        "is_available": true,
+        "category": 2,
+        "created_date": "2021-11-07T14:12:55.970Z",
+        "modified_date": "2021-11-10T09:35:51.112Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 4,
+    "fields": {
+        "product_name": "jordan-true-flight-basketball-shoes",
+        "slug": "jordan-true-flight-basketball-shoes",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop p",
+        "price": 899,
+        "images": "photos/products/jordan-true-flight-basketball-shoes.jpg",
+        "stock": 100,
+        "is_available": true,
+        "category": 3,
+        "created_date": "2021-11-07T14:13:48.550Z",
+        "modified_date": "2021-11-07T14:13:48.550Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 5,
+    "fields": {
+        "product_name": "Puma-Ferrari-Shoes",
+        "slug": "puma-ferrari-shoes",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop p",
+        "price": 999,
+        "images": "photos/products/Puma-Ferrari-Shoes.jpg",
+        "stock": 50,
+        "is_available": true,
+        "category": 3,
+        "created_date": "2021-11-07T14:14:34.639Z",
+        "modified_date": "2021-11-07T14:14:34.639Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 6,
+    "fields": {
+        "product_name": "US-Polo-Assn_Jacket",
+        "slug": "us-polo-assn_jacket",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop p",
+        "price": 999,
+        "images": "photos/products/US-Polo-Assn_Jacket.jpg",
+        "stock": 1000,
+        "is_available": true,
+        "category": 5,
+        "created_date": "2021-11-07T14:15:25.891Z",
+        "modified_date": "2021-11-07T14:15:25.891Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 7,
+    "fields": {
+        "product_name": "Wrangler-Shirt",
+        "slug": "wrangler-shirt",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop p",
+        "price": 399,
+        "images": "photos/products/Wrangler-Shirt.jpg",
+        "stock": 1000,
+        "is_available": true,
+        "category": 1,
+        "created_date": "2021-11-07T14:16:13.391Z",
+        "modified_date": "2021-11-07T14:16:13.391Z"
+    }
+},
+{
+    "model": "store.product",
+    "pk": 8,
+    "fields": {
+        "product_name": "Versache-Jeans",
+        "slug": "versache-jeans",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop p",
+        "price": 899,
+        "images": "photos/products/image1.jpg",
+        "stock": 5000,
+        "is_available": true,
+        "category": 4,
+        "created_date": "2021-11-07T14:16:55.038Z",
+        "modified_date": "2021-11-07T14:16:55.038Z"
+    }
+},
+{
+    "model": "store.variation",
+    "pk": 1,
+    "fields": {
+        "product": 1,
+        "variation_category": "color",
+        "variation_value": "Black",
+        "is_active": true,
+        "created_date": "2021-11-10T13:25:02.361Z"
+    }
+},
+{
+    "model": "store.variation",
+    "pk": 2,
+    "fields": {
+        "product": 1,
+        "variation_category": "color",
+        "variation_value": "White",
+        "is_active": true,
+        "created_date": "2021-11-10T13:25:12.512Z"
+    }
+},
+{
+    "model": "store.variation",
+    "pk": 3,
+    "fields": {
+        "product": 1,
+        "variation_category": "color",
+        "variation_value": "Green",
+        "is_active": true,
+        "created_date": "2021-11-10T13:25:26.618Z"
+    }
+},
+{
+    "model": "store.variation",
+    "pk": 4,
+    "fields": {
+        "product": 1,
+        "variation_category": "size",
+        "variation_value": "Small",
+        "is_active": true,
+        "created_date": "2021-11-10T13:25:38.680Z"
+    }
+},
+{
+    "model": "store.variation",
+    "pk": 5,
+    "fields": {
+        "product": 1,
+        "variation_category": "size",
+        "variation_value": "Medium",
+        "is_active": true,
+        "created_date": "2021-11-10T13:25:50.913Z"
+    }
+},
+{
+    "model": "store.variation",
+    "pk": 6,
+    "fields": {
+        "product": 1,
+        "variation_category": "size",
+        "variation_value": "Large",
+        "is_active": true,
+        "created_date": "2021-11-10T13:26:01.752Z"
+    }
+},
+{
+    "model": "store.reviewrating",
+    "pk": 1,
+    "fields": {
+        "product": 1,
+        "user": [
+            "prashantjaiswal300@gmail.com"
+        ],
+        "subject": "Nice Product",
+        "review": "Must Buy",
+        "rating": 4.0,
+        "ip": "127.0.0.1",
+        "status": true,
+        "created_at": "2021-12-04T07:09:19.867Z",
+        "updated_at": "2021-12-04T07:10:41.971Z"
+    }
+},
+{
+    "model": "store.reviewrating",
+    "pk": 2,
+    "fields": {
+        "product": 1,
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "subject": "Dont Buy",
+        "review": "Not recommended",
+        "rating": 1.5,
+        "ip": "127.0.0.1",
+        "status": true,
+        "created_at": "2021-12-04T07:13:44.132Z",
+        "updated_at": "2021-12-04T07:15:13.134Z"
+    }
+},
+{
+    "model": "store.reviewrating",
+    "pk": 3,
+    "fields": {
+        "product": 1,
+        "user": [
+            "jaiswalprashant1994@gmail.com"
+        ],
+        "subject": "Good Product",
+        "review": "go for it",
+        "rating": 5.0,
+        "ip": "127.0.0.1",
+        "status": true,
+        "created_at": "2021-12-04T07:49:16.899Z",
+        "updated_at": "2021-12-04T07:49:16.899Z"
+    }
+},
+{
+    "model": "store.productgallery",
+    "pk": 1,
+    "fields": {
+        "product": 1,
+        "image": "store/products/image1.jpg"
+    }
+},
+{
+    "model": "store.productgallery",
+    "pk": 2,
+    "fields": {
+        "product": 1,
+        "image": "store/products/image2.jpg"
+    }
+},
+{
+    "model": "store.productgallery",
+    "pk": 3,
+    "fields": {
+        "product": 1,
+        "image": "store/products/image13.jpg"
+    }
+},
+{
+    "model": "carts.cart",
+    "pk": 1,
+    "fields": {
+        "cart_id": "lhbh2g2u35wb6zixbd8uxjfqhmnbqx43",
+        "date_added": "2021-11-25"
+    }
+},
+{
+    "model": "carts.cart",
+    "pk": 2,
+    "fields": {
+        "cart_id": "xeyovnkoajezccmkk5pwa32heb993nnf",
+        "date_added": "2021-11-26"
+    }
+},
+{
+    "model": "carts.cart",
+    "pk": 3,
+    "fields": {
+        "cart_id": "z0i79h2xpxty9kazazdtt5qa8ys53m9s",
+        "date_added": "2021-12-02"
+    }
+},
+{
+    "model": "carts.cart",
+    "pk": 4,
+    "fields": {
+        "cart_id": "ddevrmenxxti0xdqwfetjceezijppbf2",
+        "date_added": "2021-12-02"
+    }
+},
+{
+    "model": "carts.cartitem",
+    "pk": 3,
+    "fields": {
+        "user": null,
+        "product": 1,
+        "cart": 1,
+        "quantity": 5,
+        "is_active": true,
+        "variations": [
+            1,
+            4
+        ]
+    }
+},
+{
+    "model": "carts.cartitem",
+    "pk": 4,
+    "fields": {
+        "user": null,
+        "product": 1,
+        "cart": 2,
+        "quantity": 2,
+        "is_active": true,
+        "variations": [
+            1,
+            4
+        ]
+    }
+},
+{
+    "model": "carts.cartitem",
+    "pk": 6,
+    "fields": {
+        "user": null,
+        "product": 1,
+        "cart": 3,
+        "quantity": 2,
+        "is_active": true,
+        "variations": [
+            1,
+            4
+        ]
+    }
+},
+{
+    "model": "orders.payment",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "prashantjaiswal300@gmail.com"
+        ],
+        "payment_id": "9LY545198E916812H",
+        "payment_method": "PayPal",
+        "amount_paid": "811.92",
+        "status": "COMPLETED",
+        "created_at": "2021-12-03T12:53:30.641Z"
+    }
+},
+{
+    "model": "orders.payment",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "prashantjaiswal300@gmail.com"
+        ],
+        "payment_id": "38P18629WN268844U",
+        "payment_method": "PayPal",
+        "amount_paid": "202.98",
+        "status": "COMPLETED",
+        "created_at": "2021-12-03T13:00:14.150Z"
+    }
+},
+{
+    "model": "orders.payment",
+    "pk": 3,
+    "fields": {
+        "user": [
+            "prashantjaiswal300@gmail.com"
+        ],
+        "payment_id": "34483853W6617345Y",
+        "payment_method": "PayPal",
+        "amount_paid": "202.98",
+        "status": "COMPLETED",
+        "created_at": "2021-12-03T13:05:11.132Z"
+    }
+},
+{
+    "model": "orders.payment",
+    "pk": 4,
+    "fields": {
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "payment_id": "53357184DT8388126",
+        "payment_method": "PayPal",
+        "amount_paid": "811.92",
+        "status": "COMPLETED",
+        "created_at": "2021-12-04T07:13:10.705Z"
+    }
+},
+{
+    "model": "orders.payment",
+    "pk": 5,
+    "fields": {
+        "user": [
+            "jaiswalprashant1994@gmail.com"
+        ],
+        "payment_id": "0G7476658K041641W",
+        "payment_method": "PayPal",
+        "amount_paid": "202.98",
+        "status": "COMPLETED",
+        "created_at": "2021-12-04T07:48:38.440Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "payment": null,
+        "order_number": "202111251",
+        "first_name": "Prashant",
+        "last_name": "Jaiswal",
+        "phone": "8285811727",
+        "email": "prashantjaiswal647@gmail.com",
+        "address_line_1": "K46/189 Hartirath",
+        "address_line_2": "",
+        "country": "India",
+        "state": "UP",
+        "city": "Varanasi",
+        "order_note": "Beside Lal Kothi",
+        "order_total": 608.94,
+        "tax": 11.94,
+        "status": "New",
+        "ip": "127.0.0.1",
+        "is_ordered": false,
+        "created_at": "2021-11-25T07:40:55.337Z",
+        "updated_at": "2021-11-25T07:40:55.344Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "prashantjaiswal300@gmail.com"
+        ],
+        "payment": null,
+        "order_number": "202112022",
+        "first_name": "Prashant",
+        "last_name": "Jaiswal",
+        "phone": "8285811727",
+        "email": "prashantjaiswal300@gmail.com",
+        "address_line_1": "K46/189 Hartirath",
+        "address_line_2": "",
+        "country": "India",
+        "state": "UP",
+        "city": "Varanasi",
+        "order_note": "none",
+        "order_total": 608.94,
+        "tax": 11.94,
+        "status": "New",
+        "ip": "127.0.0.1",
+        "is_ordered": false,
+        "created_at": "2021-12-02T14:38:11.358Z",
+        "updated_at": "2021-12-02T14:38:11.381Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 3,
+    "fields": {
+        "user": [
+            "prashantjaiswal300@gmail.com"
+        ],
+        "payment": null,
+        "order_number": "202112023",
+        "first_name": "Ashutosh",
+        "last_name": "Jaiswal",
+        "phone": "8285811727",
+        "email": "prashantjaiswal300@gmail.com",
+        "address_line_1": "K46/189 Hartirath",
+        "address_line_2": "",
+        "country": "India",
+        "state": "UP",
+        "city": "Varanasi",
+        "order_note": "none",
+        "order_total": 608.94,
+        "tax": 11.94,
+        "status": "New",
+        "ip": "127.0.0.1",
+        "is_ordered": false,
+        "created_at": "2021-12-02T14:41:54.490Z",
+        "updated_at": "2021-12-02T14:41:54.500Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 4,
+    "fields": {
+        "user": [
+            "prashantjaiswal300@gmail.com"
+        ],
+        "payment": 1,
+        "order_number": "202112034",
+        "first_name": "Prashant",
+        "last_name": "Jaiswal",
+        "phone": "8285811727",
+        "email": "prashantjaiswal300@gmail.com",
+        "address_line_1": "K46/189 Hartirath",
+        "address_line_2": "",
+        "country": "India",
+        "state": "UP",
+        "city": "Varanasi",
+        "order_note": "none",
+        "order_total": 811.92,
+        "tax": 15.92,
+        "status": "New",
+        "ip": "127.0.0.1",
+        "is_ordered": true,
+        "created_at": "2021-12-03T12:47:20.745Z",
+        "updated_at": "2021-12-03T12:53:30.647Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 5,
+    "fields": {
+        "user": [
+            "prashantjaiswal300@gmail.com"
+        ],
+        "payment": 2,
+        "order_number": "202112035",
+        "first_name": "Prashant",
+        "last_name": "Jaiswal",
+        "phone": "8285811727",
+        "email": "prashantjaiswal300@gmail.com",
+        "address_line_1": "K46/189 Hartirath",
+        "address_line_2": "",
+        "country": "India",
+        "state": "UP",
+        "city": "Varanasi",
+        "order_note": "none",
+        "order_total": 202.98,
+        "tax": 3.98,
+        "status": "New",
+        "ip": "127.0.0.1",
+        "is_ordered": true,
+        "created_at": "2021-12-03T12:59:49.742Z",
+        "updated_at": "2021-12-03T13:00:14.157Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 6,
+    "fields": {
+        "user": [
+            "prashantjaiswal300@gmail.com"
+        ],
+        "payment": 3,
+        "order_number": "202112036",
+        "first_name": "Prashant",
+        "last_name": "Jaiswal",
+        "phone": "8285811727",
+        "email": "prashantjaiswal300@gmail.com",
+        "address_line_1": "K46/189 Hartirath",
+        "address_line_2": "",
+        "country": "India",
+        "state": "UP",
+        "city": "Varanasi",
+        "order_note": "",
+        "order_total": 202.98,
+        "tax": 3.98,
+        "status": "New",
+        "ip": "127.0.0.1",
+        "is_ordered": true,
+        "created_at": "2021-12-03T13:04:49.870Z",
+        "updated_at": "2021-12-03T13:05:11.140Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 7,
+    "fields": {
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "payment": 4,
+        "order_number": "202112047",
+        "first_name": "Prashant",
+        "last_name": "Jaiswal",
+        "phone": "8285811727",
+        "email": "prashantjaiswal647@gmail.com",
+        "address_line_1": "K46/189 Hartirath",
+        "address_line_2": "",
+        "country": "India",
+        "state": "New York",
+        "city": "Varanasi",
+        "order_note": "",
+        "order_total": 811.92,
+        "tax": 15.92,
+        "status": "New",
+        "ip": "127.0.0.1",
+        "is_ordered": true,
+        "created_at": "2021-12-04T07:12:53.994Z",
+        "updated_at": "2021-12-04T07:13:10.717Z"
+    }
+},
+{
+    "model": "orders.order",
+    "pk": 8,
+    "fields": {
+        "user": [
+            "jaiswalprashant1994@gmail.com"
+        ],
+        "payment": 5,
+        "order_number": "202112048",
+        "first_name": "Prashant",
+        "last_name": "Jaiswal",
+        "phone": "8285811727",
+        "email": "jaiswalprashant1994@gmail.com",
+        "address_line_1": "K46/189 Hartirath",
+        "address_line_2": "",
+        "country": "India",
+        "state": "UP",
+        "city": "Varanasi",
+        "order_note": "",
+        "order_total": 202.98,
+        "tax": 3.98,
+        "status": "New",
+        "ip": "127.0.0.1",
+        "is_ordered": true,
+        "created_at": "2021-12-04T07:48:21.373Z",
+        "updated_at": "2021-12-04T07:48:38.455Z"
+    }
+},
+{
+    "model": "orders.orderproduct",
+    "pk": 1,
+    "fields": {
+        "order": 4,
+        "payment": 1,
+        "user": [
+            "prashantjaiswal300@gmail.com"
+        ],
+        "product": 1,
+        "quantity": 3,
+        "product_price": 199.0,
+        "ordered": true,
+        "created_at": "2021-12-03T12:53:30.663Z",
+        "updated_at": "2021-12-03T12:53:30.683Z",
+        "variations": [
+            1,
+            4
+        ]
+    }
+},
+{
+    "model": "orders.orderproduct",
+    "pk": 2,
+    "fields": {
+        "order": 4,
+        "payment": 1,
+        "user": [
+            "prashantjaiswal300@gmail.com"
+        ],
+        "product": 1,
+        "quantity": 1,
+        "product_price": 199.0,
+        "ordered": true,
+        "created_at": "2021-12-03T12:53:30.700Z",
+        "updated_at": "2021-12-03T12:53:30.719Z",
+        "variations": [
+            1,
+            5
+        ]
+    }
+},
+{
+    "model": "orders.orderproduct",
+    "pk": 3,
+    "fields": {
+        "order": 5,
+        "payment": 2,
+        "user": [
+            "prashantjaiswal300@gmail.com"
+        ],
+        "product": 1,
+        "quantity": 1,
+        "product_price": 199.0,
+        "ordered": true,
+        "created_at": "2021-12-03T13:00:14.172Z",
+        "updated_at": "2021-12-03T13:00:14.195Z",
+        "variations": [
+            1,
+            4
+        ]
+    }
+},
+{
+    "model": "orders.orderproduct",
+    "pk": 4,
+    "fields": {
+        "order": 6,
+        "payment": 3,
+        "user": [
+            "prashantjaiswal300@gmail.com"
+        ],
+        "product": 1,
+        "quantity": 1,
+        "product_price": 199.0,
+        "ordered": true,
+        "created_at": "2021-12-03T13:05:11.159Z",
+        "updated_at": "2021-12-03T13:05:11.179Z",
+        "variations": [
+            1,
+            4
+        ]
+    }
+},
+{
+    "model": "orders.orderproduct",
+    "pk": 5,
+    "fields": {
+        "order": 7,
+        "payment": 4,
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "product": 1,
+        "quantity": 2,
+        "product_price": 199.0,
+        "ordered": true,
+        "created_at": "2021-12-04T07:13:10.737Z",
+        "updated_at": "2021-12-04T07:13:10.771Z",
+        "variations": [
+            1,
+            4
+        ]
+    }
+},
+{
+    "model": "orders.orderproduct",
+    "pk": 6,
+    "fields": {
+        "order": 7,
+        "payment": 4,
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "product": 1,
+        "quantity": 2,
+        "product_price": 199.0,
+        "ordered": true,
+        "created_at": "2021-12-04T07:13:10.791Z",
+        "updated_at": "2021-12-04T07:13:10.814Z",
+        "variations": [
+            2,
+            5
+        ]
+    }
+},
+{
+    "model": "orders.orderproduct",
+    "pk": 7,
+    "fields": {
+        "order": 8,
+        "payment": 5,
+        "user": [
+            "jaiswalprashant1994@gmail.com"
+        ],
+        "product": 1,
+        "quantity": 1,
+        "product_price": 199.0,
+        "ordered": true,
+        "created_at": "2021-12-04T07:48:38.484Z",
+        "updated_at": "2021-12-04T07:48:38.544Z",
+        "variations": [
+            1,
+            4
+        ]
+    }
+},
+{
+    "model": "admin_honeypot.loginattempt",
+    "pk": 1,
+    "fields": {
+        "username": "prashantjaiswal647@gmail.com",
+        "ip_address": "127.0.0.1",
+        "session_key": "kuif7mau4ig2gcsf4o8xitdc0wbs0kxi",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36",
+        "timestamp": "2021-12-03T13:22:49.000Z",
+        "path": "/admin/login/?next=/admin/"
+    }
+},
+{
+    "model": "admin_honeypot.loginattempt",
+    "pk": 2,
+    "fields": {
+        "username": "prashantjaiswal647@gmail.com",
+        "ip_address": "127.0.0.1",
+        "session_key": "kuif7mau4ig2gcsf4o8xitdc0wbs0kxi",
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36",
+        "timestamp": "2021-12-03T13:22:54.953Z",
+        "path": "/admin/login/?next=/admin/"
+    }
+},
+{
+    "model": "admin_honeypot.loginattempt",
+    "pk": 3,
+    "fields": {
+        "username": "prashantjaiswal647@gmail.com",
+        "ip_address": "127.0.0.1",
+        "session_key": null,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36",
+        "timestamp": "2021-12-03T15:18:54.552Z",
+        "path": "/admin/login/?next=/admin/login/accounts/login/"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-11-07T13:29:06.431Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "category",
+            "category"
+        ],
+        "object_id": "1",
+        "object_repr": "Shirts",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2021-11-07T13:29:50.576Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "category",
+            "category"
+        ],
+        "object_id": "1",
+        "object_repr": "Shirts",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Cat image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2021-11-07T13:36:48.799Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "category",
+            "category"
+        ],
+        "object_id": "2",
+        "object_repr": "T-Shirt",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2021-11-07T13:37:16.767Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "category",
+            "category"
+        ],
+        "object_id": "3",
+        "object_repr": "Shoes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2021-11-07T13:37:41.526Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "category",
+            "category"
+        ],
+        "object_id": "4",
+        "object_repr": "Jeans",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2021-11-07T13:38:06.886Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "category",
+            "category"
+        ],
+        "object_id": "5",
+        "object_repr": "Jacket",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2021-11-07T14:10:26.767Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "product"
+        ],
+        "object_id": "1",
+        "object_repr": "ATX-Jeans",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2021-11-07T14:12:14.728Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "product"
+        ],
+        "object_id": "2",
+        "object_repr": "RXN-Blue-Shirt",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2021-11-07T14:12:55.973Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "product"
+        ],
+        "object_id": "3",
+        "object_repr": "Great-Tshirt",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2021-11-07T14:13:48.554Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "product"
+        ],
+        "object_id": "4",
+        "object_repr": "jordan-true-flight-basketball-shoes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2021-11-07T14:14:34.642Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "product"
+        ],
+        "object_id": "5",
+        "object_repr": "Puma-Ferrari-Shoes",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2021-11-07T14:15:25.895Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "product"
+        ],
+        "object_id": "6",
+        "object_repr": "US-Polo-Assn_Jacket",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2021-11-07T14:16:13.394Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "product"
+        ],
+        "object_id": "7",
+        "object_repr": "Wrangler-Shirt",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2021-11-07T14:16:55.041Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "product"
+        ],
+        "object_id": "8",
+        "object_repr": "Versache-Jeans",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2021-11-10T09:35:51.119Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "product"
+        ],
+        "object_id": "3",
+        "object_repr": "Great-Tshirt",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Stock\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2021-11-10T13:25:02.362Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "variation"
+        ],
+        "object_id": "1",
+        "object_repr": "Black",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2021-11-10T13:25:12.514Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "variation"
+        ],
+        "object_id": "2",
+        "object_repr": "White",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2021-11-10T13:25:26.619Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "variation"
+        ],
+        "object_id": "3",
+        "object_repr": "Green",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2021-11-10T13:25:38.682Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "variation"
+        ],
+        "object_id": "4",
+        "object_repr": "Small",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2021-11-10T13:25:50.922Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "variation"
+        ],
+        "object_id": "5",
+        "object_repr": "Medium",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2021-11-10T13:26:01.754Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "variation"
+        ],
+        "object_id": "6",
+        "object_repr": "Large",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2021-11-27T11:53:23.886Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "2",
+        "object_repr": "prashantjaiswal300@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2021-11-27T11:57:20.146Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "6",
+        "object_repr": "prashantjaiswal300@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2021-11-27T11:57:54.758Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "7",
+        "object_repr": "prashantjaiswal300@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2021-12-01T10:41:17.023Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "8",
+        "object_repr": "prashantjaiswal300@gmail.com",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2021-12-04T07:46:12.403Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "5",
+        "object_repr": "jaiswalprashant1994@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is active\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2021-12-04T07:46:23.447Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "accounts",
+            "account"
+        ],
+        "object_id": "4",
+        "object_repr": "prashantjaiswal123@gmail.com",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Is active\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2021-12-04T08:25:32.894Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "productgallery"
+        ],
+        "object_id": "1",
+        "object_repr": "ATX-Jeans",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2021-12-04T08:25:48.720Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "productgallery"
+        ],
+        "object_id": "2",
+        "object_repr": "ATX-Jeans",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2021-12-04T08:26:00.870Z",
+        "user": [
+            "prashantjaiswal647@gmail.com"
+        ],
+        "content_type": [
+            "store",
+            "productgallery"
+        ],
+        "object_id": "3",
+        "object_repr": "ATX-Jeans",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+}
+]
