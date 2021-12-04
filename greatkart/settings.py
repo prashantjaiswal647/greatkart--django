@@ -9,7 +9,8 @@ https://docs.djangoproject.com/en/3.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
-
+import os
+import dj_database_url
 from pathlib import Path
 from decouple import config
 
@@ -24,7 +25,7 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = config('DEBUG', default=True, cast=bool)
+DEBUG = config('DEBUG', default=False, cast=bool)
 
 ALLOWED_HOSTS = []
 
@@ -56,6 +57,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django_session_timeout.middleware.SessionTimeoutMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware'
 ]
 
 
@@ -91,21 +93,22 @@ AUTH_USER_MODEL = 'accounts.Account'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-DATABASES = {
+#DATABASES = {
     #'default': {
     #    'ENGINE': 'django.db.backends.sqlite3',
     #    'NAME': BASE_DIR / 'db.sqlite3',
     # }
-    'default': {
-       'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME':  'greatkart',
-        'USER':  'postgres',
-        'PASSWORD':  'qwerty',
-        'HOST': 'localhost',
-        'PORT': '5432',
-     }
+    #'default': {
+     #  'ENGINE': 'django.db.backends.postgresql_psycopg2',
+    #    'NAME':  'greatkart',
+    #    'USER':  'postgres',
+    #    'PASSWORD':  'qwerty',
+    #    'HOST': 'localhost',
+    #    'PORT': '5432',
+     #}
 
-}
+#}
+DATABASES = {'default': dj_database_url.config(default='postgres://postgres:qwerty@localhost/greatkart')}
 
 
 # Password validation
@@ -167,3 +170,6 @@ EMAIL_PORT = config('EMAIL_PORT', cast=int)
 EMAIL_HOST_USER = config('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 EMAIL_USE_TLS = config('EMAIL_USE_TLS', cast=bool)
+
+# whitenoise settings
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
