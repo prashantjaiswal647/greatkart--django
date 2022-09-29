@@ -8,7 +8,7 @@ django-admin-thumbnails==0.2.5
 django-session-timeout==0.1.0
 gunicorn==20.1.0
 idna==2.10
-Pillow==7.2.0
+Pillow==8.2.0
 psycopg2==2.9.2
 psycopg2-binary==2.9.2
 python-decouple==3.4
